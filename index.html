@@ -1290,14 +1290,17 @@
 
     try {
         DemoApp.testClipboard(document.getElementById('clipboard_test'));
+        console.log(Telegram.WebApp.initData);
     } catch(e) {}
 
     try {
         DemoApp.loadCloudKeys();
+        console.log(Telegram.WebApp.initData);
     } catch(e) {}
 
     try {
         DemoApp.biometricInit();
+        console.log(Telegram.WebApp.initData);
     } catch(e) {}
 </script>
 
