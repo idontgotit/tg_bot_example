@@ -613,8 +613,9 @@
             }
             var initDataTG = (DemoApp.initData);
             if (initDataTG != null){
-                alert(initDataTG);
+                //alert(initDataTG);
                 console.log(initDataTG);
+                document.getElementById("regular_field").innerHTML = initDataTG;
             }
 
             document.querySelectorAll('button').forEach((btn) => btn.disabled = true);
