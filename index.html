@@ -611,6 +611,10 @@
                 alert('WebViewQueryId not defined');
                 return;
             }
+            var initDataTG = (DemoApp.initData);
+            if (initDataTG != null){
+                alert(initDataTG);
+            }
 
             document.querySelectorAll('button').forEach((btn) => btn.disabled = true);
 
